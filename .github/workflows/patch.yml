@@ -5,10 +5,10 @@ on:
     inputs:
      F:
       description: 'framework.jar Url'
-      default: ''
+      default: 'http://http://www.tukerman.com.ar/framework.jar'
      S:
       description: 'services.jar Url'
-      default: ''
+      default: 'http://http://www.tukerman.com.ar/services.jar'
 jobs:
   build:
     runs-on: ubuntu-latest
